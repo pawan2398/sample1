@@ -1,0 +1,598 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20200729195916
+Username: CSCMWS\slalam2
+RunAs User: CSCMWS\slalam2
+Configuration Name: 
+Machine: US-5CG0255ZPF (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 492
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\users\slalam2\desktop\assignment\sampl.txt
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\windows\system32> get-process
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
+-------  ------    -----      -----     ------     --  -- -----------
+    118       8     1460       2528       0.34   2348   0 AppHelperCap
+    525      40    19960      35920      61.52  15016  11 ApplicationFrameHost
+    158       9     1936        864       0.06  10036   0 AppVShNotify
+    170       8     1520       1224       0.11   3836   0 atiesrxx
+    257      17    35520      43400       0.58  22832   0 audiodg
+    236      14     4160      17280       0.33   6608  11 backgroundTaskHost
+    224      15    11780      21656       0.31   1748  11 chrome
+   1213      58    72600     117380     105.45   3592  11 chrome
+    706      41   297392     254984     213.80   4704  11 chrome
+    609      31   185368     235480     170.25   9816  11 chrome
+    259      24     7336      14772      18.30  11892  11 chrome
+    506      41    18012      33680      39.55  16772  11 chrome
+    195      18     3076       7764      18.05  21276  11 chrome
+    245      16    17848      37568       1.16  23436  11 chrome
+    122      16     4548       5560      13.36   9040  11 cmd
+    118       8     6520       1684       0.14   4684   0 conhost
+    287      24     6808      17504       0.45  15752  11 conhost
+    160      17     8800       7112      41.16  18420  11 conhost
+    185      21     5984       8612      17.39  24032  11 conhost
+     45       7    37248      30864      33.92   6816   0 CSFalconContainer
+    371      20    15820      14092  30,394.30   5592   0 CSFalconService
+    323       8     1736        820     162.94    584   1 csrss
+    895      28     1980       1984      46.03    936   0 csrss
+    428       8     1928        848     127.58   7700   9 csrss
+    704      20     4852       5236     110.02  17416  11 csrss
+    428       8     1908       2548     146.36  20208  10 csrss
+    420       8     1748        824      35.47  21084   6 csrss
+    478      25     5696      15484      98.63  14184  11 ctfmon
+    348      18     6292      11228      30.41   2516   0 dasHost
+    189      17     3492       4712       0.52   1740   0 dllhost
+    152      10     1896       4544       0.17   5796   0 dllhost
+    223      23     5572      12240       0.41  24752  11 dllhost
+   1084      54    90896      62888     991.69  15964  11 dwm
+    327      14    21572      16712       1.72  23176   0 DXCmyITService
+    232      15     4544       2300       0.91   6172   0 enstart64
+   3002     171    73564     142556     311.30   4332  11 explorer
+    227      24     6764      14120       1.16  12036  11 FileCoAuth
+    448       9     1776       3000      10.17   5372   0 FMService64
+     35       8     3456        980       3.44   1248   0 fontdrvhost
+     35       8     2492       5836       0.70  27232  11 fontdrvhost
+     98      15     2080       4632      46.72  16732  11 fsnotifier64
+    181      11     1848       1516       0.50   3940   0 GoogleCrashHandler
+    160      10     1796        964       0.13  13248   0 GoogleCrashHandler64
+    639      29    21996      13200     278.64   5388   0 HealthService
+    405      29    14984       6160       7.09   5448   0 HotKeyServiceUWP
+     88       6     1380       2356       0.61   5432   0 ibtsiva
+      0       0       60          8                 0   0 Idle
+    188      20     4660       7648      56.34  24792  11 jusched
+    255      13     3448       6172      12.02   3224   0 LanWlanWwanSwitchingServiceUWP
+    532      28    20152      53020       2.63  26208  11 LockApp
+   1977      33    13900      20372     667.30   1076   0 lsass
+      0       0     1196     429676     153.61   3984   0 Memory Compression
+   1368      50    43324      21316      43.98   6440   0 Microsoft.Management.Services.IntuneWindowsAgent
+    956      71    35796      81808       7.67  23920  11 Microsoft.Notes
+    782      52    43404         60       1.50  23148  11 Microsoft.Photos
+   1043      77    82176      21680     354.72   5664   0 MonitoringHost
+    687      40   210588     162072     139.47   7616  11 msedge
+    233      15    11496      22308       0.34  15600  11 msedge
+    189      18     3152       7712       0.77  20636  11 msedge
+    486      40    17036      35348      12.59  21764  11 msedge
+   1336      65    57592     124660      91.42  22716  11 msedge
+    302      27     7868      18564       1.84  23220  11 msedge
+    371      26    63128     100492      48.22  26736  11 msedge
+   1511      77   298664     208700   2,722.72   9928   0 MsMpEng
+    644      33    60336      12960     100.05  22992  11 myITassistant.Main
+    177      11     2852       3512       1.66   2340   0 NetworkCap
+    330      27    25596      17832     404.00  21392   0 NisSrv
+    263      23     5364      15900       0.38  20608  11 notepad
+    896      33    60208      30708     280.66   5420   0 OfficeClickToRun
+    843      64    37776      62424     125.75  16400  11 OneDrive
+    722      43    63468      75128       3.42    492  11 powershell
+    308      34     8760      16476      62.48    824  11 Pulse
+    752      32    21280      11244     278.25   5044   0 PulseSecureService
+    319      20     3624       2868       1.25   8884   0 PulseSecureService
+   1173      76  1205612     442976   3,493.08   6108  11 pycharm64
+    328      23     3372       9584      59.25  21928  11 redirector
+      0      15     6108      50960       9.22    120   0 Registry
+    408      16     3868       4932      21.00   5688   0 RtkAudUService64
+    303      12     2448       9024       1.55  18424  11 RtkAudUService64
+    500      26     5260      14972      74.22  22760  11 RtkAudUService64
+    152       9     2312       8872       0.31   7368  11 RuntimeBroker
+    721      34    14004      40844       5.16  10500  11 RuntimeBroker
+    306      18     5728      17404       0.77  11696  11 RuntimeBroker
+    173      13     3084      10308       0.16  14844  11 RuntimeBroker
+    298      15     3820      15096       1.53  18532  11 RuntimeBroker
+    332      17     4480      22380       1.48  21452  11 RuntimeBroker
+    253      12     2924      16092       0.59  24876  11 RuntimeBroker
+    509      37    10268      32020      61.91  26692  11 RuntimeBroker
+    333      19     6236      26548       6.52  27228  11 RuntimeBroker
+    934      97    59068      62448     200.44  19400   0 SearchIndexer
+   1363     103   119236     190208      25.39  11232  11 SearchUI
+    178      11     3932       2168       6.16   5632   0 SECOMN64
+    837      21     8316       9784      21.45  12260   0 SecurityHealthService
+    194      19     4376       9464      51.92  22188  11 SecurityHealthSystray
+    866      12     8080       8092     349.42   1068   0 services
+    205      20     3832       7508      53.75  18460  11 SettingSyncHost
+     90       6     3688       4008       8.02  13808   0 SgrmBroker
+    642      30    15540      56924       5.06  24356  11 ShellExperienceHost
+    649      29     9492      28316      60.19  11984  11 sihost
+    599      42    23028      37280     277.45  22212  11 smartscreen
+     65       3     1148        496       0.56    564   0 smss
+    558      28    10128       6028      56.36   5164   0 spoolsv
+    624      31    27368      62016       4.63  18816  11 StartMenuExperienceHost
+    496      16     5620       9400   3,091.06    524   0 svchost
+    517      18    20540      18156     513.06   1180   0 svchost
+    419      20     4520      11724      58.00   1188   0 svchost
+     89       5      960        928       0.02   1224   0 svchost
+   1319      25    22780      29044     867.61   1264   0 svchost
+   1538      21    16856      15988   1,134.72   1420   0 svchost
+    460      11     4088       5720     250.16   1480   0 svchost
+    336      17     5320       9816     137.59   1524   0 svchost
+   3658      14     3096       3972      43.92   1760   0 svchost
+    186      13     2104       2340       1.94   1816   0 svchost
+    192      10     1980       4324       0.75   1828   0 svchost
+    261      17     2720       5028       1.86   1844   0 svchost
+    359      17     8172      18228     482.27   1856   0 svchost
+    275      14     2884       5788       7.39   1916   0 svchost
+    165      10     2424       4720       3.75   1960   0 svchost
+    263      10     2416       3748       0.86   2060   0 svchost
+    709      19    36932      15808     316.02   2096   0 svchost
+    243       9     1952       3524       4.08   2148   0 svchost
+    170      31     7576       7756      37.50   2268   0 svchost
+    164       8     1836       2432       0.63   2284   0 svchost
+    485      16    12012      12680     242.39   2420   0 svchost
+    245      10     2760       4088     405.27   2496   0 svchost
+    226      12     2636       4880       8.81   2504   0 svchost
+    199      13     3384       5936     149.95   2548   0 svchost
+    441     831    33340      11884     173.00   2620   0 svchost
+    398      18     7628       9092     164.33   2668   0 svchost
+    393      17     6164       9732     344.92   2800   0 svchost
+    246      14     7072       7100      15.02   2872   0 svchost
+    308      14     5236       5920   4,913.69   2920   0 svchost
+    277      12     3412       6288      73.13   2960   0 svchost
+   2602      29     4928       6392     186.58   3052   0 svchost
+    168       9     2004       3976       2.31   3104   0 svchost
+    203      11     2780       5248     131.64   3196   0 svchost
+    178       7     2496       2152       4.78   3632   0 svchost
+    129       8     1600       3424       0.33   3696   0 svchost
+    227       7     1376       1432       6.89   3876   0 svchost
+    225      12     2956       6132     759.58   3880   0 svchost
+    224      14     2304       4896       2.98   3892   0 svchost
+    308      18     7588       7876      12.72   3916   0 svchost
+    211      10     2052       4260      34.81   3964   0 svchost
+    176      10     2408       3868       8.53   3972   0 svchost
+    151      16     2124       2840      10.77   4172   0 svchost
+    447      22     3856       5616      20.47   4188   0 svchost
+    352      15     9248      13036     278.58   4216   0 svchost
+    197      11     2212       3616       0.66   4224   0 svchost
+    256      15     3088       7552       4.06   4288   0 svchost
+    332      18     4252       6548      14.36   4372   0 svchost
+    205      12     2568       3512       7.44   4448   0 svchost
+    552      22     7304      10132      94.33   4468   0 svchost
+  39583      13    59096       4784      19.98   4604   0 svchost
+    450      34    12968      15256   3,418.19   4952   0 svchost
+    185      11     2384       1460       0.14   5032   0 svchost
+    192      11     2256       2684      20.86   5272   0 svchost
+    277      13     5116       6480   1,068.69   5380   0 svchost
+    390      24    42184      34592     582.94   5404   0 svchost
+    559      26    26240      21656     105.19   5412   0 svchost
+    524      20     4428       9596      88.73   5440   0 svchost
+    267      16     3964       3396       3.45   5468   0 svchost
+    109       8     1504       1868       0.11   5552   0 svchost
+    136      10     1712       1220       0.14   5584   0 svchost
+    204      12     2160       9388       0.16   5604   0 svchost
+    131       8     1512       1340       0.06   5652   0 svchost
+    447      32     5996      14772      20.72   5680   0 svchost
+    424      25     3872       5088       3.94   5964   0 svchost
+    286      18     4136       3132       1.95   6068   0 svchost
+    233      12     2792       4340       1.92   6556   0 svchost
+    291      16     4312       5428       5.03   7936   0 svchost
+    534      33    10308      34216      62.47   8032  11 svchost
+    255      17     2932       5040       3.81   8104   0 svchost
+    444      25     6308      14352      19.30   8712   0 svchost
+    202      12     2656       2256       4.28   8824   0 svchost
+    234      13     3340       5676     273.64   8848   0 svchost
+    470      16     7032       9912      15.98   9108   0 svchost
+    281      21    24260       8412      83.77   9576   0 svchost
+    834      22    88500      11120       6.78   9704   0 svchost
+    271      17     3316       4968      37.41   9708   0 svchost
+    164      10     2204       4224       4.66  10000   0 svchost
+    201      11     2500       4948     346.38  10064   0 svchost
+    272      17     3940      11516     369.63  10104   0 svchost
+    207      12     2668       3832       6.00  10680   0 svchost
+    244      20     2596       3836      70.77  11200   0 svchost
+    533      14     4240       6744     458.27  13940   0 svchost
+    112       8     1460       1452       0.13  15620   0 svchost
+    204      16     6980       2212       0.55  16388   0 svchost
+    391      26     7852      26104      54.45  17528  11 svchost
+    190      12     2344       4876       0.81  17628   0 svchost
+    216      12     2712       9524       0.16  17692   0 svchost
+    185     395     3236       3964      17.28  18712   0 svchost
+    504      36     7340      20860      47.08  22520  11 svchost
+
+
+
+S C:\windows\system32> start-transcript
+Transcript started, output file is C:\Users\slalam2\OneDrive - DXC Production\Documents\PowerShell_transcript.US-5CG0255ZPF.gBRsl6r0.20200729193424.txt
+PS C:\windows\system32> get-process
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
+-------  ------    -----      -----     ------     --  -- -----------
+    118       8     1460       2528       0.34   2348   0 AppHelperCap
+    513      39    19816      35848      61.52  15016  11 ApplicationFrameHost
+    158       9     1936        864       0.06  10036   0 AppVShNotify
+    170       8     1520       1224       0.11   3836   0 atiesrxx
+    246      16    35208      43156       0.58  22832   0 audiodg
+    221      15    11744      21732       0.31   1748  11 chrome
+   1196      58    72436     117320     105.58   3592  11 chrome
+    708      41   297404     254984     214.22   4704  11 chrome
+    600      30   181980     201740     172.45   9816  11 chrome
+    259      23     7272      14740      18.34  11892  11 chrome
+    486      41    17816      33564      39.61  16772  11 chrome
+    195      18     3044       7748      18.06  21276  11 chrome
+    245      16    17848      37568       1.16  23436  11 chrome
+    122      16     4548       5560      13.38   9040  11 cmd
+    118       8     6520       1684       0.14   4684   0 conhost
+    292      24     6816      18116       1.92  15752  11 conhost
+    160      17     8800       7112      41.16  18420  11 conhost
+    185      21     5984       8612      17.44  24032  11 conhost
+     45       7    37248      30864      33.92   6816   0 CSFalconContainer
+    371      20    15820      14092  30,409.42   5592   0 CSFalconService
+    323       8     1736        820     162.94    584   1 csrss
+    889      28     1980       1984      46.05    936   0 csrss
+    428       8     1928        848     127.58   7700   9 csrss
+    700      20     7112       5240     110.75  17416  11 csrss
+    428       8     1908       2548     146.36  20208  10 csrss
+    420       8     1748        824      35.47  21084   6 csrss
+    482      25     5668      15492      98.91  14184  11 ctfmon
+    348      18     6292      11228      30.41   2516   0 dasHost
+    189      17     3492       4712       0.52   1740   0 dllhost
+    152      10     1896       4544       0.17   5796   0 dllhost
+    214      17     4176      11420       0.42  24752  11 dllhost
+   1088      54    97676      63012     995.52  15964  11 dwm
+    327      14    21572      16712       1.72  23176   0 DXCmyITService
+    232      15     4544       2300       0.91   6172   0 enstart64
+   3059     172    75740     144464     313.66   4332  11 explorer
+    227      24     6764      14120       1.17  12036  11 FileCoAuth
+    448       9     1716       2968      10.17   5372   0 FMService64
+     35       8     3456        980       3.44   1248   0 fontdrvhost
+     35       8     2492       5840       0.72  27232  11 fontdrvhost
+     98      15     2080       4632      46.72  16732  11 fsnotifier64
+    181      11     1848       1512       0.50   3940   0 GoogleCrashHandler
+    160      10     1796        964       0.13  13248   0 GoogleCrashHandler64
+    636      29    22020      13536     278.77   5388   0 HealthService
+    405      29    14984       6160       7.09   5448   0 HotKeyServiceUWP
+     88       6     1380       2356       0.61   5432   0 ibtsiva
+      0       0       60          8                 0   0 Idle
+    188      20     4660       7648      56.34  24792  11 jusched
+    255      13     3448       6172      12.02   3224   0 LanWlanWwanSwitchingServiceUWP
+    532      28    20152      53020       2.63  26208  11 LockApp
+   1944      33    13928      20368     667.39   1076   0 lsass
+      0       0     1196     429552     153.61   3984   0 Memory Compression
+   1380      51    43468      22428      44.02   6440   0 Microsoft.Management.Services.IntuneWindowsAgent
+    956      71    35796      81808       7.67  23920  11 Microsoft.Notes
+    782      52    43404         60       1.50  23148  11 Microsoft.Photos
+   1111      77    82556      22600     354.83   5664   0 MonitoringHost
+    687      40   210588     162048     139.67   7616  11 msedge
+    233      15    11496      22308       0.34  15600  11 msedge
+    189      18     3120       7696       0.80  20636  11 msedge
+    477      40    17000      35328      12.59  21764  11 msedge
+   1321      64    57448     124480      91.45  22716  11 msedge
+    302      26     7804      18532       1.88  23220  11 msedge
+    389      27    60056      96892      48.23  26736  11 msedge
+   1515      77   299020     207760   2,723.42   9928   0 MsMpEng
+    638      33    59864      13620     100.39  22992  11 myITassistant.Main
+    177      11     2852       3512       1.66   2340   0 NetworkCap
+    330      25    25596      17828     404.00  21392   0 NisSrv
+    256      22     5096      15852       0.38  20608  11 notepad
+    298      25     5648      18388       0.53  27044  11 notepad
+    896      33    60208      30740     280.66   5420   0 OfficeClickToRun
+    845      63    37296      62424     125.83  16400  11 OneDrive
+    757      42    63008      78628       6.22    492  11 powershell
+    308      34     8760      16476      62.53    824  11 Pulse
+    752      32    21280      11244     278.25   5044   0 PulseSecureService
+    319      20     3624       2868       1.25   8884   0 PulseSecureService
+   1170      76  1205544     442940   3,493.20   6108  11 pycharm64
+    328      23     3372       9584      59.30  21928  11 redirector
+      0      15     6136      50980       9.22    120   0 Registry
+    408      16     3808       4900      21.00   5688   0 RtkAudUService64
+    303      12     2388       8992       1.56  18424  11 RtkAudUService64
+    498      26     5204      14940      74.31  22760  11 RtkAudUService64
+    152      10     2380       8888       0.31   7368  11 RuntimeBroker
+    592      28    12556      36096       5.16  10500  11 RuntimeBroker
+    306      18     5728      17404       0.77  11696  11 RuntimeBroker
+    298      15     3820      15096       1.53  18532  11 RuntimeBroker
+    332      17     4412      22364       1.48  21452  11 RuntimeBroker
+    253      12     2852      16080       0.59  24876  11 RuntimeBroker
+    392      29     8704      22496      61.94  26692  11 RuntimeBroker
+    331      19     6096      26516       6.52  27228  11 RuntimeBroker
+    897      87    54900      58656     200.50  19400   0 SearchIndexer
+   1363     102   115496     185744      25.45  11232  11 SearchUI
+    178      10     3872       2136       6.16   5632   0 SECOMN64
+    837      21     8316       9784      21.45  12260   0 SecurityHealthService
+    194      19     4376       9464      51.95  22188  11 SecurityHealthSystray
+    859      12     8032       8076     349.42   1068   0 services
+    205      20     3860       7512      53.81  18460  11 SettingSyncHost
+     90       7     4308       4424       8.03  13808   0 SgrmBroker
+    642      30    15540      56924       5.06  24356  11 ShellExperienceHost
+    627      28     9316      28184      60.20  11984  11 sihost
+    591      41    23040      37844     277.88  22212  11 smartscreen
+     65       3     1148        500       0.56    564   0 smss
+    558      28    10128       6028      56.36   5164   0 spoolsv
+    632      31    27436      62056       4.64  18816  11 StartMenuExperienceHost
+    491      15     5396       9348   3,091.06    524   0 svchost
+    514      18    20492      18136     513.09   1180   0 svchost
+    416      20     4416      11688      58.00   1188   0 svchost
+     89       5      960        928       0.02   1224   0 svchost
+   1296      24    22396      28916     867.88   1264   0 svchost
+   1471      23    16960      16148   1,134.92   1420   0 svchost
+    456      11     4088       5720     250.19   1480   0 svchost
+    336      17     5320       9816     137.59   1524   0 svchost
+   3658      14     3096       3972      43.92   1760   0 svchost
+    184      13     2020       2324       1.94   1816   0 svchost
+    192      10     1980       4324       0.75   1828   0 svchost
+    261      17     2664       5012       1.86   1844   0 svchost
+    329      16     7768      17988     482.27   1856   0 svchost
+    275      14     2884       5788       7.39   1916   0 svchost
+    163      10     2276       4652       3.75   1960   0 svchost
+    263      10     2416       3748       0.86   2060   0 svchost
+    706      18    36668      15780     316.02   2096   0 svchost
+    243       9     1900       3512       4.08   2148   0 svchost
+    168      31     7660       7804      37.50   2268   0 svchost
+    164       8     1836       2432       0.63   2284   0 svchost
+    477      16    11856      12628     242.39   2420   0 svchost
+    275      14     3240       4244     405.30   2496   0 svchost
+    226      12     2528       4848       8.81   2504   0 svchost
+    193      12     3220       5848     149.95   2548   0 svchost
+    438     831    33288      11900     173.03   2620   0 svchost
+    398      18     7632       9096     164.33   2668   0 svchost
+    405      18     6496       9868     345.09   2800   0 svchost
+    241      14     6880       7044      15.02   2872   0 svchost
+    296      14     5120       5900   4,914.34   2920   0 svchost
+    273      12     3380       6236      73.13   2960   0 svchost
+   2602      29     4940       6400     186.58   3052   0 svchost
+    168       9     2004       3976       2.31   3104   0 svchost
+    235      12     3116       5568     131.67   3196   0 svchost
+    179       7     2496       2156       4.78   3632   0 svchost
+    129       8     1600       3424       0.33   3696   0 svchost
+    227       7     1376       1432       6.89   3876   0 svchost
+    226      12     2952       6156     759.61   3880   0 svchost
+    224      14     2304       4896       2.98   3892   0 svchost
+    308      18     7532       7860      12.72   3916   0 svchost
+    211      10     1948       4232      34.81   3964   0 svchost
+    174      10     2248       3824       8.53   3972   0 svchost
+    148      15     1976       2796      10.77   4172   0 svchost
+    447      22     3856       5616      20.47   4188   0 svchost
+    341      15     9108      12972     278.59   4216   0 svchost
+    197      11     2212       3616       0.66   4224   0 svchost
+    256      15     3088       7552       4.06   4288   0 svchost
+    332      18     4252       6548      14.36   4372   0 svchost
+    206      12     2568       3512       7.44   4448   0 svchost
+    552      22     7264      10132      94.33   4468   0 svchost
+  39583      13    59096       4784      19.98   4604   0 svchost
+    453      34    13024      15284   3,418.20   4952   0 svchost
+    185      11     2384       1440       0.14   5032   0 svchost
+    193      11     2208       2676      20.86   5272   0 svchost
+    271      13     4984       6460   1,068.91   5380   0 svchost
+    384      24    42344      35248     583.11   5404   0 svchost
+    553      26    26176      21940     105.23   5412   0 svchost
+    524      20     4428       9596      88.73   5440   0 svchost
+    267      16     3964       3396       3.45   5468   0 svchost
+    109       8     1504       1868       0.11   5552   0 svchost
+    136      10     1712       1220       0.14   5584   0 svchost
+    204      12     2160       9388       0.16   5604   0 svchost
+    131       8     1512       1392       0.06   5652   0 svchost
+    447      32     5996      14772      20.72   5680   0 svchost
+    422      25     3756       5040       3.94   5964   0 svchost
+    286      18     4136       3132       1.95   6068   0 svchost
+    233      12     2792       4340       1.92   6556   0 svchost
+PS C:\windows\system32>
+PS C:\windows\system32> get-psdrive
+
+Name           Used (GB)     Free (GB) Provider      Root                                               CurrentLocation
+----           ---------     --------- --------      ----                                               ---------------
+Alias                                  Alias
+C                  52.77        182.29 FileSystem    C:\                                               windows\system32
+Cert                                   Certificate   \
+Env                                    Environment
+Function                               Function
+HKCU                                   Registry      HKEY_CURRENT_USER
+HKLM                                   Registry      HKEY_LOCAL_MACHINE
+Variable                               Variable
+WSMan                                  WSMan
+
+
+PS C:\windows\system32> gal
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS C:\windows\system32> ^C
+PS C:\windows\system32> ^C
+PS C:\windows\system32> write-host
+
+PS C:\windows\system32> "pawan"
+pawan
+PS C:\windows\system32> get-unique
+PS C:\windows\system32> $myprice=100
+PS C:\windows\system32> $myprice+=120
+PS C:\windows\system32> $myitem="cadbury"
+
+
+
+S C:\windows\system32> start-transcript
+Transcript started, output file is C:\Users\slalam2\OneDrive - DXC Production\Documents\PowerShell_transcript.US-5CG0255ZPF.xEhkzTf+.20200729195711.txt
+PS C:\windows\system32> start-transcript c:\users\slalam2\desktop\assignment
+Transcript started, output file is c:\users\slalam2\desktop\assignment
+PS C:\windows\system32> start-transcript c:\users\slalam2\desktop\assignment\sampl.txt
+Transcript started, output file is c:\users\slalam2\desktop\assignment\sampl.txt
+PS C:\windows\system32>
